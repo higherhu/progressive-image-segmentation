@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3F661B7A-17FC-40F2-9A4C-76379E56A270}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>main</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\VS2013\OpenCV_248d_x86.props" />
+    <Import Project="..\..\..\VS2013\Eigen_3_1_3.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\VS2013\Eigen_3_1_3.props" />
+    <Import Project="..\..\..\VS2013\OpenCV_248d_x64.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\VS2013\OpenCV_248_x86.props" />
+    <Import Project="..\..\..\VS2013\Eigen_3_1_3.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\VS2013\Eigen_3_1_3.props" />
+    <Import Project="..\..\..\VS2013\OpenCV_248_x64.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/D "_CRT_SECURE_NO_DEPRECATE" %(AdditionalOptions)</AdditionalOptions>
+      <OpenMPSupport>true</OpenMPSupport>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/D "_CRT_SECURE_NO_DEPRECATE" %(AdditionalOptions)</AdditionalOptions>
+      <OpenMPSupport>true</OpenMPSupport>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/D "_CRT_SECURE_NO_DEPRECATE" %(AdditionalOptions)</AdditionalOptions>
+      <OpenMPSupport>false</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/D "_CRT_SECURE_NO_DEPRECATE" %(AdditionalOptions)</AdditionalOptions>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app.h" />
+    <ClInclude Include="basicfuncs.h" />
+    <ClInclude Include="features\ETF.h" />
+    <ClInclude Include="features\fdog.h" />
+    <ClInclude Include="features\imatrix.h" />
+    <ClInclude Include="features\matrix.h" />
+    <ClInclude Include="features\myvec.h" />
+    <ClInclude Include="features\Saliency.h" />
+    <ClInclude Include="features\stdhead.h" />
+    <ClInclude Include="featureVector.h" />
+    <ClInclude Include="msrcfunc.h" />
+    <ClInclude Include="multi-labelGraphCut\block.h" />
+    <ClInclude Include="multi-labelGraphCut\energy.h" />
+    <ClInclude Include="multi-labelGraphCut\GCoptimization.h" />
+    <ClInclude Include="multi-labelGraphCut\graph.h" />
+    <ClInclude Include="multi-labelGraphCut\LinkedBlockList.h" />
+    <ClInclude Include="OMCLPBoost\booster.h" />
+    <ClInclude Include="OMCLPBoost\classifier.h" />
+    <ClInclude Include="OMCLPBoost\data.h" />
+    <ClInclude Include="OMCLPBoost\experimenter.h" />
+    <ClInclude Include="OMCLPBoost\hyperparameters.h" />
+    <ClInclude Include="OMCLPBoost\linear_larank.h" />
+    <ClInclude Include="OMCLPBoost\linear_larank\LaRank.h" />
+    <ClInclude Include="OMCLPBoost\linear_larank\vectors.h" />
+    <ClInclude Include="OMCLPBoost\linear_larank\wrapper.h" />
+    <ClInclude Include="OMCLPBoost\online_mcboost.h" />
+    <ClInclude Include="OMCLPBoost\online_mclpboost.h" />
+    <ClInclude Include="OMCLPBoost\online_rf.h" />
+    <ClInclude Include="OMCLPBoost\utilities.h" />
+    <ClInclude Include="pixelfeatures.h" />
+    <ClInclude Include="regionfeatures.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="superpixel\disjoint-set.h" />
+    <ClInclude Include="superpixel\helper.h" />
+    <ClInclude Include="superpixel\seeds2.h" />
+    <ClInclude Include="superpixel\segment-graph.h" />
+    <ClInclude Include="superpixel\segment-image.h" />
+    <ClInclude Include="superpixel\SLIC.h" />
+    <ClInclude Include="superpixel\superpixel.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app.cpp" />
+    <ClCompile Include="features\ETF.cpp" />
+    <ClCompile Include="features\fdog.cpp" />
+    <ClCompile Include="features\Saliency.cpp" />
+    <ClCompile Include="msrcfunc.cpp" />
+    <ClCompile Include="multi-labelGraphCut\GCoptimization.cpp" />
+    <ClCompile Include="multi-labelGraphCut\graph.cpp" />
+    <ClCompile Include="multi-labelGraphCut\LinkedBlockList.cpp" />
+    <ClCompile Include="multi-labelGraphCut\maxflow.cpp" />
+    <ClCompile Include="OMCLPBoost\booster.cpp" />
+    <ClCompile Include="OMCLPBoost\classifier.cpp" />
+    <ClCompile Include="OMCLPBoost\data.cpp" />
+    <ClCompile Include="OMCLPBoost\experimenter.cpp" />
+    <ClCompile Include="OMCLPBoost\hyperparameters.cpp" />
+    <ClCompile Include="OMCLPBoost\linear_larank.cpp" />
+    <ClCompile Include="OMCLPBoost\linear_larank\LaRank.cpp" />
+    <ClCompile Include="OMCLPBoost\linear_larank\LaRankClassify.cpp" />
+    <ClCompile Include="OMCLPBoost\linear_larank\LaRankLearn.cpp" />
+    <ClCompile Include="OMCLPBoost\linear_larank\vectors.cpp" />
+    <ClCompile Include="OMCLPBoost\OMCBoost.cpp" />
+    <ClCompile Include="OMCLPBoost\online_mcboost.cpp" />
+    <ClCompile Include="OMCLPBoost\online_mclpboost.cpp" />
+    <ClCompile Include="OMCLPBoost\online_rf.cpp" />
+    <ClCompile Include="OMCLPBoost\utilities.cpp" />
+    <ClCompile Include="pixelfeatures.cpp" />
+    <ClCompile Include="regionfeatures.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="superpixel\seeds2.cpp" />
+    <ClCompile Include="superpixel\segment-image.cpp" />
+    <ClCompile Include="superpixel\SLIC.cpp" />
+    <ClCompile Include="superpixel\superpixel.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="OMCLPBoost\linear_larank\Makefile" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

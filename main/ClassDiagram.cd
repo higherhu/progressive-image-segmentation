@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="App" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CFAJIAFUAgIIgYIgIAhrAQAAQIPBJAAiAwBQLgJ5QiY=</HashCode>
+      <FileName>app.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FeatureVector_&lt;T&gt;" Collapsed="true">
+    <Position X="12.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAABIEAAAAAAggAAAAAAAAAAAAAAAAAAJEACAAA=</HashCode>
+      <FileName>featureVector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRCFunc" Collapsed="true">
+    <Position X="22" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAIAAAABAAAEAAAAAAAAAAAAAAAAAAAAAAgAAg=</HashCode>
+      <FileName>msrcfunc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelFeatures" Collapsed="true">
+    <Position X="18.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgAACAiAAASBgAgAAAGAGBIAQgSTAAwAAAAAAEA=</HashCode>
+      <FileName>pixelfeatures.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RegionFeatures" Collapsed="true">
+    <Position X="22" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAEAAACCAAAIEQAAAAEACBAQUICAAACEAAAAAMA=</HashCode>
+      <FileName>regionfeatures.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timer" Collapsed="true">
+    <Position X="23.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAASCAARIBAAAAAAAAAAAAAAACCIACAAEAEBAA=</HashCode>
+      <FileName>Timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ETF" Collapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgAAAAAAAIQAAAAAAQBQAAAABEhABJAAEAAIAAAgAA=</HashCode>
+      <FileName>features\ETF.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="imatrix" Collapsed="true">
+    <Position X="20.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABQAAAAAElABJAAGAAAAAAgAA=</HashCode>
+      <FileName>features\imatrix.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="matrix" Collapsed="true">
+    <Position X="20.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABQCAAAAEhABJCAEAAAAAAgAA=</HashCode>
+      <FileName>features\matrix.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myvec" Collapsed="true">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQACAAAAAAAAAFQQAAAAEAAAIAAEAAABAAAAE=</HashCode>
+      <FileName>features\myvec.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mymatrix" Collapsed="true">
+    <Position X="23.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABQBAAAAEhABJAAEABAAAAgAA=</HashCode>
+      <FileName>features\myvec.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="universe" Collapsed="true">
+    <Position X="15" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACACAAAAAAAAAJAIAAAAAAAAABAACAAAAAAAAAA=</HashCode>
+      <FileName>superpixel\disjoint-set.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEEDS" Collapsed="true">
+    <Position X="16.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEFAAJSyJBAgAdzKwJugBaACAAoASQEDAABgIzCEBEI=</HashCode>
+      <FileName>superpixel\seeds2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SLIC" Collapsed="true">
+    <Position X="18.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEQAAgABCAAAABAIDEAAAAAQBAAgCAlQAAACAAEAA=</HashCode>
+      <FileName>superpixel\SLIC.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Superpixel" Collapsed="true">
+    <Position X="20.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>xAEAAAAABACIAQAACBAIAIAAAAAAAAAECAAEAAAAAAA=</HashCode>
+      <FileName>superpixel\superpixel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Booster" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAgAAAAAAAAAAAAAAAIAgAAQAAAAAIAAAIAACAAAAA=</HashCode>
+      <FileName>OMCLPBoost\booster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Classifier" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAgAAAAAAAAAAAAAAAIAAIAAAhFAAAAAAAAACAEAAA=</HashCode>
+      <FileName>OMCLPBoost\classifier.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sample" Collapsed="true">
+    <Position X="15" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAhgACAAAgA=</HashCode>
+      <FileName>OMCLPBoost\data.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataSet" Collapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAIAAAAAAAAgAAAIAAAAAAAAAQAAAAABABIA=</HashCode>
+      <FileName>OMCLPBoost\data.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Result" Collapsed="true">
+    <Position X="23.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAgAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OMCLPBoost\data.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cache" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABAAAgAAAAAAAAAAAIAAAAAQAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>OMCLPBoost\data.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hyperparameters" Collapsed="true">
+    <Position X="18.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAoCIEIAgCAAAAgIAAAAAACBQoQAAgAgAAgRAABAA=</HashCode>
+      <FileName>OMCLPBoost\hyperparameters.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinearLaRank" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAIAAAAAAAAAAIAAAAAAAAAACAAAAAACjEAAA=</HashCode>
+      <FileName>OMCLPBoost\linear_larank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnlineMCBoost" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAEAAA=</HashCode>
+      <FileName>OMCLPBoost\online_mcboost.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnlineMCLPBoost" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAKAAAgAAAQAAAAAAAAACAEAAA=</HashCode>
+      <FileName>OMCLPBoost\online_mclpboost.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RandomTest" Collapsed="true">
+    <Position X="20.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgAAAACAgAAAAAAAAICAcAEAAgAAAAgAAAACAEAAA=</HashCode>
+      <FileName>OMCLPBoost\online_rf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnlineNode" Collapsed="true">
+    <Position X="16.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQiECABAAAAAACgAAAIQAIAAEFAAgAAQAAAACAEgAA=</HashCode>
+      <FileName>OMCLPBoost\online_rf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnlineTree" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAgAAAAAAAIAAAAAAAAAAQAAIAAACAEAAA=</HashCode>
+      <FileName>OMCLPBoost\online_rf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnlineRF" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgACAAAAABAACAAAAIAAAAAAIAAAAAAAAAACAEABA=</HashCode>
+      <FileName>OMCLPBoost\online_rf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exampler" Collapsed="true">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAABAAAAAAAAAgAIAAAYAQAAAAAAA=</HashCode>
+      <FileName>OMCLPBoost\linear_larank\LaRank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaRankPattern" Collapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQhgAQAAAAA=</HashCode>
+      <FileName>OMCLPBoost\linear_larank\LaRank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaRankPatterns" Collapsed="true">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIQAAAAAABAQAAEAIAAABACQAEAQgAAACEAAAAAAAA=</HashCode>
+      <FileName>OMCLPBoost\linear_larank\LaRank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Machine" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAABgAAABAACIAACAAAAAAAAAAAAAqCCCCgA=</HashCode>
+      <FileName>OMCLPBoost\linear_larank\LaRank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaRankOutput" Collapsed="true">
+    <Position X="23.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAARABAAABMAABAAAAAAACCAAAIAAAAAEAgA=</HashCode>
+      <FileName>OMCLPBoost\linear_larank\LaRank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaRank" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAaAQAIBACBoAIAACADAAAMAEAAAACAAAIAICASGCgA=</HashCode>
+      <FileName>OMCLPBoost\linear_larank\LaRank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaFVector" Collapsed="true">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAICAAAAAAIYEQACCAAAAAAAAEYiAAAACAQA=</HashCode>
+      <FileName>OMCLPBoost\linear_larank\vectors.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SVector" Collapsed="true">
+    <Position X="22" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAICAAAAAAKYAQAACQAAAAAAAAIgAAAACAQg=</HashCode>
+      <FileName>OMCLPBoost\linear_larank\vectors.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wrapper&lt;Rep&gt;" Collapsed="true">
+    <Position X="16.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAIAAAIAAAAgAAAAAAAAACAgAAAAAEA=</HashCode>
+      <FileName>OMCLPBoost\linear_larank\wrapper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GBlock&lt;Type&gt;" Collapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABiAAAAEAIAAAEAAAAAAgABIAAAACAoA=</HashCode>
+      <FileName>multi-labelGraphCut\block.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBlock&lt;Type&gt;" Collapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAEAAAAAAAEAAAAAJAIAQAACAAA=</HashCode>
+      <FileName>multi-labelGraphCut\block.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Energy&lt;captype, tcaptype, flowtype&gt;" Collapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAECAAAAAAIAAAAAgICAAAAAIA=</HashCode>
+      <FileName>multi-labelGraphCut\energy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GCException" Collapsed="true">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAABCA=</HashCode>
+      <FileName>multi-labelGraphCut\GCoptimization.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GCoptimization" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QhwSAAqBXDEaMiOANmCYphqjgBFEBAAUIxliAAITiBI=</HashCode>
+      <FileName>multi-labelGraphCut\GCoptimization.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GCoptimizationGridGraph" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAABBAAhAApAAAQAAACAAEEAAAAAAIA=</HashCode>
+      <FileName>multi-labelGraphCut\GCoptimization.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GCoptimizationGeneralGraph" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAABAAABAAhABAAAAAAACAAAAEAAQAAIIA=</HashCode>
+      <FileName>multi-labelGraphCut\GCoptimization.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graph&lt;captype, tcaptype, flowtype&gt;" Collapsed="true">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQfEIAkCCAQMCKUAgAIABgAA8CFIEiICCIFAEIAsgg=</HashCode>
+      <FileName>multi-labelGraphCut\graph.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinkedBlockList" Collapsed="true">
+    <Position X="18.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MgAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAAABQIQQAA=</HashCode>
+      <FileName>multi-labelGraphCut\LinkedBlockList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="RegionDis" Collapsed="true">
+    <Position X="15" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>regionfeatures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vect" Collapsed="true">
+    <Position X="18.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAEAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>features\ETF.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Saliency" Collapsed="true">
+    <Position X="16.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAACABQAACAAgBAAAAAAAAIICFAAKoAAAA=</HashCode>
+      <FileName>features\Saliency.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_003c_1" Collapsed="true">
+    <Position X="12.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAIAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>superpixel\disjoint-set.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0040_1" Collapsed="true">
+    <Position X="12.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAQgAAAAAAAA=</HashCode>
+      <FileName>superpixel\segment-graph.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="FeatureVector" Collapsed="true">
+    <Position X="12.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>featureVector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vecD" Collapsed="true">
+    <Position X="23.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>features\stdhead.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vecF" Collapsed="true">
+    <Position X="15" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>features\stdhead.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CostfIdx" Collapsed="true">
+    <Position X="16.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>features\stdhead.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uni_elt" Collapsed="true">
+    <Position X="12.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>superpixel\disjoint-set.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UINT" Collapsed="true">
+    <Position X="22" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>superpixel\seeds2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="edge" Collapsed="true">
+    <Position X="12.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>superpixel\segment-graph.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CLASSIFIER_TYPE" Collapsed="true">
+    <Position X="8.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OMCLPBoost\OMCBoost.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LOSS_FUNCTION" Collapsed="true">
+    <Position X="8.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OMCLPBoost\hyperparameters.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="WEAK_LEARNER" Collapsed="true">
+    <Position X="4.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OMCLPBoost\hyperparameters.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="VFloat" Collapsed="true">
+    <Position X="16.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OMCLPBoost\linear_larank\vectors.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="gcoclock_t" Collapsed="true">
+    <Position X="18.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>multi-labelGraphCut\GCoptimization.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BlockType" Collapsed="true">
+    <Position X="15" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>multi-labelGraphCut\LinkedBlockList.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ListType" Collapsed="true">
+    <Position X="20.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>multi-labelGraphCut\LinkedBlockList.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="__unnamed_enum_002d_1" Collapsed="true">
+    <Position X="8.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAIAAEAAAAABAAAAAA=</HashCode>
+      <FileName>OMCLPBoost\OMCBoost.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0023_1" Collapsed="true">
+    <Position X="8.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>OMCLPBoost\hyperparameters.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0023_2" Collapsed="true">
+    <Position X="4.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OMCLPBoost\hyperparameters.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

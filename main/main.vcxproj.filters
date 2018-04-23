@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="features">
+      <UniqueIdentifier>{eaa082b9-4187-4ade-a36a-f018ae9d7858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Superpixel">
+      <UniqueIdentifier>{c39e012d-e508-4d22-b472-171162cbd433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OMCLPBoost">
+      <UniqueIdentifier>{8c7e680c-ac42-4905-9c61-334494cae793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="multi-labelGraphCut">
+      <UniqueIdentifier>{01035dad-1ce8-415b-b3ac-3cb9c4652fa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OMCLPBoost\linear_larank">
+      <UniqueIdentifier>{b16339f8-0132-4762-9664-058db9d69a9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pixelfeatures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="features\ETF.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\fdog.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\imatrix.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\matrix.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\myvec.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\Saliency.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\stdhead.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="basicfuncs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="featureVector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="regionfeatures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="superpixel\helper.h">
+      <Filter>Superpixel</Filter>
+    </ClInclude>
+    <ClInclude Include="superpixel\seeds2.h">
+      <Filter>Superpixel</Filter>
+    </ClInclude>
+    <ClInclude Include="superpixel\SLIC.h">
+      <Filter>Superpixel</Filter>
+    </ClInclude>
+    <ClInclude Include="superpixel\superpixel.h">
+      <Filter>Superpixel</Filter>
+    </ClInclude>
+    <ClInclude Include="multi-labelGraphCut\block.h">
+      <Filter>multi-labelGraphCut</Filter>
+    </ClInclude>
+    <ClInclude Include="multi-labelGraphCut\energy.h">
+      <Filter>multi-labelGraphCut</Filter>
+    </ClInclude>
+    <ClInclude Include="multi-labelGraphCut\GCoptimization.h">
+      <Filter>multi-labelGraphCut</Filter>
+    </ClInclude>
+    <ClInclude Include="multi-labelGraphCut\graph.h">
+      <Filter>multi-labelGraphCut</Filter>
+    </ClInclude>
+    <ClInclude Include="multi-labelGraphCut\LinkedBlockList.h">
+      <Filter>multi-labelGraphCut</Filter>
+    </ClInclude>
+    <ClInclude Include="OMCLPBoost\booster.h">
+      <Filter>OMCLPBoost</Filter>
+    </ClInclude>
+    <ClInclude Include="OMCLPBoost\classifier.h">
+      <Filter>OMCLPBoost</Filter>
+    </ClInclude>
+    <ClInclude Include="OMCLPBoost\data.h">
+      <Filter>OMCLPBoost</Filter>
+    </ClInclude>
+    <ClInclude Include="OMCLPBoost\experimenter.h">
+      <Filter>OMCLPBoost</Filter>
+    </ClInclude>
+    <ClInclude Include="OMCLPBoost\hyperparameters.h">
+      <Filter>OMCLPBoost</Filter>
+    </ClInclude>
+    <ClInclude Include="OMCLPBoost\linear_larank.h">
+      <Filter>OMCLPBoost</Filter>
+    </ClInclude>
+    <ClInclude Include="OMCLPBoost\online_mcboost.h">
+      <Filter>OMCLPBoost</Filter>
+    </ClInclude>
+    <ClInclude Include="OMCLPBoost\online_mclpboost.h">
+      <Filter>OMCLPBoost</Filter>
+    </ClInclude>
+    <ClInclude Include="OMCLPBoost\online_rf.h">
+      <Filter>OMCLPBoost</Filter>
+    </ClInclude>
+    <ClInclude Include="OMCLPBoost\utilities.h">
+      <Filter>OMCLPBoost</Filter>
+    </ClInclude>
+    <ClInclude Include="OMCLPBoost\linear_larank\LaRank.h">
+      <Filter>OMCLPBoost\linear_larank</Filter>
+    </ClInclude>
+    <ClInclude Include="OMCLPBoost\linear_larank\vectors.h">
+      <Filter>OMCLPBoost\linear_larank</Filter>
+    </ClInclude>
+    <ClInclude Include="OMCLPBoost\linear_larank\wrapper.h">
+      <Filter>OMCLPBoost\linear_larank</Filter>
+    </ClInclude>
+    <ClInclude Include="superpixel\disjoint-set.h">
+      <Filter>Superpixel</Filter>
+    </ClInclude>
+    <ClInclude Include="superpixel\segment-graph.h">
+      <Filter>Superpixel</Filter>
+    </ClInclude>
+    <ClInclude Include="superpixel\segment-image.h">
+      <Filter>Superpixel</Filter>
+    </ClInclude>
+    <ClInclude Include="msrcfunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pixelfeatures.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="features\ETF.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\fdog.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\Saliency.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="regionfeatures.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="superpixel\seeds2.cpp">
+      <Filter>Superpixel</Filter>
+    </ClCompile>
+    <ClCompile Include="superpixel\SLIC.cpp">
+      <Filter>Superpixel</Filter>
+    </ClCompile>
+    <ClCompile Include="superpixel\superpixel.cpp">
+      <Filter>Superpixel</Filter>
+    </ClCompile>
+    <ClCompile Include="multi-labelGraphCut\GCoptimization.cpp">
+      <Filter>multi-labelGraphCut</Filter>
+    </ClCompile>
+    <ClCompile Include="multi-labelGraphCut\graph.cpp">
+      <Filter>multi-labelGraphCut</Filter>
+    </ClCompile>
+    <ClCompile Include="multi-labelGraphCut\LinkedBlockList.cpp">
+      <Filter>multi-labelGraphCut</Filter>
+    </ClCompile>
+    <ClCompile Include="multi-labelGraphCut\maxflow.cpp">
+      <Filter>multi-labelGraphCut</Filter>
+    </ClCompile>
+    <ClCompile Include="OMCLPBoost\booster.cpp">
+      <Filter>OMCLPBoost</Filter>
+    </ClCompile>
+    <ClCompile Include="OMCLPBoost\classifier.cpp">
+      <Filter>OMCLPBoost</Filter>
+    </ClCompile>
+    <ClCompile Include="OMCLPBoost\data.cpp">
+      <Filter>OMCLPBoost</Filter>
+    </ClCompile>
+    <ClCompile Include="OMCLPBoost\experimenter.cpp">
+      <Filter>OMCLPBoost</Filter>
+    </ClCompile>
+    <ClCompile Include="OMCLPBoost\hyperparameters.cpp">
+      <Filter>OMCLPBoost</Filter>
+    </ClCompile>
+    <ClCompile Include="OMCLPBoost\linear_larank.cpp">
+      <Filter>OMCLPBoost</Filter>
+    </ClCompile>
+    <ClCompile Include="OMCLPBoost\OMCBoost.cpp">
+      <Filter>OMCLPBoost</Filter>
+    </ClCompile>
+    <ClCompile Include="OMCLPBoost\online_mcboost.cpp">
+      <Filter>OMCLPBoost</Filter>
+    </ClCompile>
+    <ClCompile Include="OMCLPBoost\online_mclpboost.cpp">
+      <Filter>OMCLPBoost</Filter>
+    </ClCompile>
+    <ClCompile Include="OMCLPBoost\online_rf.cpp">
+      <Filter>OMCLPBoost</Filter>
+    </ClCompile>
+    <ClCompile Include="OMCLPBoost\utilities.cpp">
+      <Filter>OMCLPBoost</Filter>
+    </ClCompile>
+    <ClCompile Include="OMCLPBoost\linear_larank\LaRank.cpp">
+      <Filter>OMCLPBoost\linear_larank</Filter>
+    </ClCompile>
+    <ClCompile Include="OMCLPBoost\linear_larank\LaRankClassify.cpp">
+      <Filter>OMCLPBoost\linear_larank</Filter>
+    </ClCompile>
+    <ClCompile Include="OMCLPBoost\linear_larank\LaRankLearn.cpp">
+      <Filter>OMCLPBoost\linear_larank</Filter>
+    </ClCompile>
+    <ClCompile Include="OMCLPBoost\linear_larank\vectors.cpp">
+      <Filter>OMCLPBoost\linear_larank</Filter>
+    </ClCompile>
+    <ClCompile Include="superpixel\segment-image.cpp">
+      <Filter>Superpixel</Filter>
+    </ClCompile>
+    <ClCompile Include="msrcfunc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OMCLPBoost\linear_larank\Makefile">
+      <Filter>OMCLPBoost\linear_larank</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
