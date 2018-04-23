@@ -7,7 +7,7 @@ This repository contains the code for the progressive image segmentation method 
 ### Citation
 If you find this work is useful in your research, please consider citing:
 
-	@inproceedings{hu2018stacked,
+	@inproceedings{hu2015segmentation,
 	  title={Progressive refinement: a method of coarse-to-fine image parsing using stacked network},
 	  author={Hu, Jiagao and Sun, Zhengxing and Yang, Kewei and Chen, Yiwen},
 	  booktitle={Advances in Multimedia Information Processing - {PCM} 2015 - 16th
